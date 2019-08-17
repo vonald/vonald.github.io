@@ -10,9 +10,9 @@ layout: default
 
         <p>
           {% if post.categories contains ‘articles’ %}
-	          {{ post.excerpt }}
+	          {{ post.excerpt | strip.html }}
           {% else %}
-	          {{ post.content | strip_html | truncatewords: 30 }}
+	          {{ post.content | truncatewords: 50 }}
           {% endif %}
         </p>
 
