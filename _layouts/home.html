@@ -1,33 +1,39 @@
----
-layout: default
----
+<div class=“catalogue”>
 
-<div class="catalogue">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>
-
-        <p>
-          		{% if post.categories contains ‘articles’ %}
-	          		{{ post.excerpt | strip.html }}
-          		{% else %}
-	          		{{ post.content | truncatewords: 50 }}
-          		{% endif %}	
-        </p>
-
-      </div>
+  {% if post.categories contains ‘articles’ %}
+   	<a href=“{{ post.url | prepend: site.baseurl }}” class=“catalogue-item”>
+   	<time datetime=“{{ post.date }}” class=“catalogue-time”>{{ post.date | date: “%d %B %Y” }}</time>
+{% else %}
+	{{ post.content }}
+{% endif %}	
+      
     </a>
+
   {% endfor %}
+
 </div>
 
-<div class="pagination">
+
+
+
+<div class=“pagination”>
+
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+
+    <a href=“{{ paginator.previous_page_path | prepend: site.baseurl }}” class=“left arrow”>&#8592;</a>
+
   {% endif %}
 
+  {% if paginator.next_page %}
+
+    <a href=“{{ paginator.next_page_path | prepend: site.baseurl }}” class=“right arrow”>&#8594;</a>
+
+  {% endif %}
+
+
+
+
   <span>{{ paginator.page }}</span>
+
 </div>
