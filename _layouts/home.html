@@ -4,7 +4,7 @@ layout: default
 
 <div class="catalogue">
   {% for post in paginator.posts %}
-    <a #href="{{ post.url | prepend: site.baseurl }}" >
+    <a class="catalogue-item" >
 	<div>	    
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>
 	      	<p>    		
