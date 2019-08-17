@@ -7,9 +7,9 @@ layout: default
     <a #href="{{ post.url | prepend: site.baseurl }}" >
 	<div>	    
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>
-	          		
-		<{{ post.content }} class="catalogue-item">	
-    
+	      	<p>    		
+		{{ post.content }} 	
+		</p>
 		
 	</div>	
 	</a>
