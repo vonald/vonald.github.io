@@ -1,7 +1,7 @@
 ---
 layout: post
-title: “First Post”
-author: “StephenP”
+title: First Post
+author: StephenP
 categories: [article]
 ---
 Welcome to my blog. I have started various blogs over the years, most of which have fizzled out for one reason or another. I like the discipline of writing - I think it is good for my brain.
