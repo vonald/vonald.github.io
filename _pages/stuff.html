@@ -1,0 +1,32 @@
+---
+layout: default
+title: Stuff
+author: StephenP
+permalink: /stuff/
+---
+
+
+<h2>Articles1</h2>
+
+<div class="catalogue">
+  {% for category in site.categories.microblog %}
+    <h3>{{ category[0] }}</h3>
+    <ul>
+      {% for post in category[1] %}
+        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
+</div>
