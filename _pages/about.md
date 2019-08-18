@@ -4,5 +4,5 @@ title: About
 author: StephenP
 permalink: /about/
 ---
-## Stuff
+## About
 Amongst other things, I am a dabbler, late adopter, birder, and podcast listener.
