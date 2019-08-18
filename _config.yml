@@ -30,7 +30,8 @@ plugins:
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
   
-#Collections  
+#Collections
+Collections:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
