@@ -31,7 +31,9 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
   
 #Collections
-Collections:
+collections:
+  category:
+  output: true
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
