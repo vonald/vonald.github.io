@@ -2,16 +2,16 @@
 title:          Strandlines
 description:    "Minimal Jekyll theme for storytellers"
 baseurl:        
-url:            "https://chesterhow.github.io"
+url:            
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         StephenP
+  url:          
+  email:        
 
 # Build settings
 markdown:       kramdown
