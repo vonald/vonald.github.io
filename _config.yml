@@ -29,6 +29,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
+  
+#Collections  
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
