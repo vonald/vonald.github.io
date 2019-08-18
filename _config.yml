@@ -36,3 +36,16 @@ paginate:       5
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Collections
+collections:
+  category:
+    output: true
+    
+    defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
