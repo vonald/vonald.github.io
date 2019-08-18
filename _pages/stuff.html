@@ -10,7 +10,7 @@ permalink: /stuff/
 
 <div class="catalogue">
   {% for category in site.categories %}
-    <h3>{{ category[microblog] }}</h3>
+    <h3>{{ category['microblog'] }}</h3>
     <ul>
       {% for post in category[1] %}
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>
