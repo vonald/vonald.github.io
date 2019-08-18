@@ -38,8 +38,8 @@ paginate:       5
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 collections:
- category: 
-    output: true
+    category: 
+      output: true
     
     defaults:
   -
