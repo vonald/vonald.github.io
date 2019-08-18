@@ -37,7 +37,6 @@ paginate:       5
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-
 collections:
  category: 
     output: true
