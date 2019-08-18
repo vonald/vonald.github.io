@@ -1,5 +1,5 @@
 ---
 layout: category
-category: article
-permalink: "/category/article"
+tag: article
+permalink: /category/article
 ---
