@@ -39,7 +39,7 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Collections
 collections:
-  category: 
+  category:
     output: true
     
     defaults:
