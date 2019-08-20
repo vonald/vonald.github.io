@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Test
 author: StephenP
 permalink: /test/
@@ -7,3 +7,5 @@ permalink: /test/
 
 
 ## Testing
+
+why is the page not displaying any text?
