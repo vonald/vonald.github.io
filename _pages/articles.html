@@ -9,7 +9,7 @@ permalink: /articles/
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
-      <li><a href="{{ post.url }}"><time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>&nbsp;{{ post.title }}</a></li>      
+      <li><a href="{{ post.url }}"><time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>&nbsp;<br />{{ post.title }}</a></li>      
     {% endfor %}
   </ul>
 {% endfor %}
