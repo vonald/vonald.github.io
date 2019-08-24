@@ -8,7 +8,7 @@ permalink: /archive/
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}"><time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>{{ strip.html | post.excerpt }}</a>
+      <a href="{{ post.url }}"><time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d %B %Y" }}</time>{{ strip_html | post.excerpt }}</a>
     </li>
   {% endfor %}
 </ul>
