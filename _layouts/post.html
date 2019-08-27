@@ -7,8 +7,8 @@ layout: default
    
 
     {% if page.date %}
-      <br>
-      <p> style="text-align:right;"><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+      <div align="right" ><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    </div>  
     {% endif %}
   </div>
   <br>
