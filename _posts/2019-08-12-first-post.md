@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Post
+title: 
 author: StephenP
 categories: [article]
 ---
