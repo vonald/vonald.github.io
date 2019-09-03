@@ -4,4 +4,4 @@ title:
 author: StephenP
 categories: [ ]
 ---
-Mature never ceases to amaze...[Barn owls reflect moonlight in order to stun their prey](http://theconversation.com/barn-owls-reflect-moonlight-in-order-to-stun-their-prey-122796)
+Nature never ceases to amaze...[Barn owls reflect moonlight in order to stun their prey](http://theconversation.com/barn-owls-reflect-moonlight-in-order-to-stun-their-prey-122796)
