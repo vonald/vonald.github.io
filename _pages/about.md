@@ -5,4 +5,4 @@ author: StephenP
 permalink: /about/
 ---
 ## About
-I am a dabbler, late adopter, birder, dog owner and podcast listener.
+I am a dabbler, late adopter, birder, nature nut, dog owner and podcast listener.
