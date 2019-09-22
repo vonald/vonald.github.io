@@ -10,3 +10,5 @@ I am a dabbler, late adopter, birder, nature nut, cricket fan, dog owner and pod
 If you would like to subscribe to this blog via RSS, just copy the link below into your reader of choice:
 
 [https://strandlines.blog/atom.xml](https://strandlines.blog/atom.xml)
+
+You can also follow me on [Micro.blog](https://micro.blog/StephenP rel="me")
