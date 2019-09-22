@@ -11,4 +11,4 @@ If you would like to subscribe to this blog via RSS, just copy the link below in
 
 [https://strandlines.blog/atom.xml](https://strandlines.blog/atom.xml)
 
-You can also follow me on [Micro.blog](https://micro.blog/StephenP rel="me")
+You can also follow me on [Micro.blog](https://micro.blog/StephenP)
